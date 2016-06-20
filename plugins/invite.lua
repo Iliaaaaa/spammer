@@ -37,7 +37,7 @@ return {
 		"!invite : for invite member to our groups"
 		},
     patterns = {
-      "^[!/]invite (.*)$"
+      "^[!#/]invite (.*)$"
     },
     run = run
 }
