@@ -142,11 +142,11 @@ return {
 		"!spammerbot : show information and stats for bot"
 		},
   patterns = {
-    "^[!/]([Ss]tats)$",
-    "^[!/]([Ss]tatslist)$",
-    "^[!/]([Ss]tats) (group) (%d+)",
-    "^[!/]([Ss]tats) (spammerbot)",-- Put everything you like :)
-		"^[!/]([Ss]pammerbot)"-- Put everything you like :)
+    "^[#!/]([Ss]tats)$",
+    "^[#!/]([Ss]tatslist)$",
+    "^[#!/]([Ss]tats) (group) (%d+)",
+    "^[#!/]([Ss]tats) (spammerbot)",-- Put everything you like :)
+		"^[#!/]([Ss]pammerbot)"-- Put everything you like :)
     }, 
   run = run
 }
